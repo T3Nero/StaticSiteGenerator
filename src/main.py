@@ -1,12 +1,9 @@
-from textnode import TextNode, TextType
+from textnode import TextNode, TextType, split_nodes_delimiter, extract_markdown_images, extract_markdown_links, split_nodes_images, split_nodes_links, text_to_textnodes
+
 
 
 
 def main():
-    text_node = TextNode(text="This is some anchor text", text_type=TextType.LINK, URL="https://www.boot.dev")
-    print(text_node)
-
-
 
 
 
