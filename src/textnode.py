@@ -26,6 +26,9 @@ class TextNode:
     def __repr__(self):
         return f"TextNode({self.text}, {self.type.value}, {self.url})"
     
+
+
+    
 def text_to_textnodes(text):
     nodes = [TextNode(text, TextType.TEXT)]
     nodes = split_nodes_delimiter(nodes, "**", TextType.BOLD)
