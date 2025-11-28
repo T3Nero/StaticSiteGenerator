@@ -10,7 +10,7 @@ from markdown_to_html import (
 )
 
 source = "./static/"
-destination = "public/"
+destination = "docs/"
 
 content = "content/"
 template = "template.html"
